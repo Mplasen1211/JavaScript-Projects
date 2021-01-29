@@ -25,10 +25,17 @@ function dog_pics() {
     Dog_Picture[1] = "playing";
     Dog_Picture[2] = "eating";
     Dog_Picture[3] = "barking";
-    document.getElementById("Cat").innerHTML = "In this picture, the dog is " +
+    document.getElementById("Dog").innerHTML = "In this picture, the dog is " +
         Dog_Picture[2] + ".";
 }
 // "Let" Keyword 
+function constant_function() {
+    const Musical_Instrument = {type:"guitar", brand:"Fender", color:"black"};
+    Musical_Instrument.color = "blue";
+    Musical_Instrument.price = "$900";
+    document.getElementById("Constant").innerHTML = "The cost of the " +
+    Musical_Instrument.type + " was " + Musical_Instrument.price;
+}
 var X = 82;
 document.write(X);
 {
