@@ -157,7 +157,7 @@ function checkWinConditions() {
         x = x1,
         // This variable store temporary y axis data we update in our animation loop.
         y = y1;
-    }
+    
 
     // This function interacts with canvas.
     function animateLineDrawing() {
@@ -214,7 +214,7 @@ function checkWinConditions() {
     // Then, clears canvas, resets game, and allows clicking again.
     setTimeout(function () { clear(); resetGame(); }, 1000);
 
-
+}
 
 
 // This function resets the game in a tie or a win.
