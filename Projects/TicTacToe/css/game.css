@@ -23,7 +23,7 @@ td {
     /* This property removes default padding. */
     padding: 0px;
     width: 200px;
-    height:200px;
+    height: 200px;
 }
 
 canvas {
